@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.navcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlinks li {
+    list-style-type: none;
+}
+.navlinks li a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    
+    
+    
+}
+.pic{
+    background-image: url(images/home-bg.jpg);
+    height: 800px;
+    width: 1400px;
+}
+.mast{
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    padding: 140px;
+    
+    
+    
+    
+    
+}
+h1{
+    font-style: italic;
+    margin-left: 30px;
+
+    
+    
+}
+
+p{
+    font-style: normal;
+    margin-left: 20px;
+}
+button{
+    margin-left: 70px;
+    font-size: medium;
+    background-color: lightsalmon;
+    color: white;   
+}
+.ab1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    
+    
+    
+}
+.gr img{
+    width: 100%;
+    height: 60%;
+
+}  
+.ab2{
+    width: 70%;
+    height: 50%;
+    padding-top: 100px;
+    
+
+}
+.ab2 h1{
+    font-size: xx-large;
+}
+.ab2 p{
+    font-size: medium;
+    font-style: normal;
+}
+.ab2 button{
+    color: black;
+    margin-right: 50px;
+} 
+.main2{
+    width: 100%;
+    height: 150px;
+    
+}
+.facility img{
+    margin-left: 40%;
+
+}
+.facility h1{
+    margin-left: 45%;
+}
+.coffeevarities{
+    width: 100%;
+    height: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gal1 img{
+    margin-left: 20%;
+}
+.pap{
+    width: 100%;
+    height: 120px;
+    
+}
+.pap{
+    width: 100%;
+    height: 120px;
+    
+    
+}
+.menu img{
+    margin-left: 40%;
+
+}
+.menu h1{
+    margin-left: 45%;
+}
+.pap1{
+    width: 100%;
+    height: 400px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.pap2{
+    width: 100%;
+    height: 400px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mag img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+.mag1 img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+}
+.mag h1{
+    margin-left: 30%;
+}
+.mag1 h1{
+    margin-left: 30%;
+}
+.ou{
+    width: 100%;
+    height: 140px;
+    background-color: aqua;
+}
+.our img{
+    margin-left: 40%;
+}
+.our h1{
+    margin-left: 45%;
+}
+.our1{
+    width: 100%;
+    height: 400%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mag2 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+.our2{
+    width: 100%;
+    height: 400px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.mag3 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+.tl{
+    width: 100%;
+    height: 120px;
+    
+}
+.tl img{
+    margin-left: 40%;
+
+}
+.tl h1{
+    margin-left: 45%;
+}
+.our3{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.mag4 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+
+}
+.our4{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.mag5 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+
+}
+.mag4 h1{
+    margin-left: 30%;
+}
+.mag5 h1{
+    margin-left: 30%;
+}
+.conn img{
+    margin-left: 40%;
+
+}
+.conn h1{
+    margin-left: 45%;
+}
+.our5 img{
+    margin-left: 40%;
+
+}
+.our5 h1{
+    margin-left: 45%;
+}
+.ab9{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 500px;
+    
+}
+.gr1 img{
+    width: 80%;
+    height: 80%;
+
+}
+.ab8{
+    width: 80%;
+    height:70%;
+    border: 1px solid black;
+    justify-content: center;
+    
+}
+.ab8 h1{
+    margin-left: 30%;
+}
+.foot{
+    width: 100%;
+    height: 200px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.foot2 img{
+    width: 40%;
+    height: 40%;
+    background-color: brown;
+}
+.foot3 img{
+    width: 40%;
+    height: 40%;
+}
+.foot1 img{
+    width: 60%;
+    height: 60%;
+    
+}
+.eml{
+    
+    
+    margin: 10px 120px;
+}
+.ab8 button{
+    margin-left: 160px;
+}
+.foot1 h1{
+    margin-bottom: 40px;
+}
+.hhh{
+    width: 100%;
+    height: 70px;
+    border: 0.5px solid black;
+}
+.hhh h4{
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+    
+    
+    
+   
+
+
+
+    
